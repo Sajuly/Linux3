@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 arr[0]=$1;
 arr[1]=$2;
 arr[2]=$3;
@@ -61,7 +60,6 @@ function init_colors {
 }
 
 function dataSetup {
-
         HOSTNAME=$(hostname)
         TIMEZONE="$(cat /etc/timezone) UTC $(date +"%Z")"
         USER=$(whoami)
